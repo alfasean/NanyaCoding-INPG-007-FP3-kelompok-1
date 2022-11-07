@@ -56,7 +56,7 @@
 }
 
 .p1 {
-    margin-left: 135px;
+    margin-left: 20px;
     margin-top: 100px;
     font-family: 'Basic';
     font-style: normal;
@@ -67,10 +67,11 @@
 }
 
 .img1 {
-    width: 93%;
-    height: 466px;
-    margin-left: 700px;
-    margin-top: -480px;
+    width: 115%;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 5px;
 }
 
 #show {
@@ -80,7 +81,7 @@
 .show-btn {
     width: 140px;
     height: 40px;
-    margin-left: 135px;
+    margin-left: 20px;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     text-align: center;
     color: white;
@@ -127,4 +128,86 @@
 
 .oval {
     margin-top: -200px;
+}
+
+#services h1 {
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #020E35;
+}
+
+#services .line {
+    margin-bottom: 5px;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #E73587 !important;
+}
+
+.container {
+    display: flex;
+}
+
+#kotak1 {
+    background-color: #FDF8E3;
+}
+
+#kotak2 {
+    background-color: #F0F3FA;
+}
+
+#kotak3 {
+    background-color: #FEEFF0;
+}
+
+#kotak1 img {
+    width: 319px;
+    height: 284px;
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+}
+
+#kotak2 img {
+    width: 319px;
+    height: 284px;
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+}
+
+#kotak3 img {
+    width: 319px;
+    height: 284px;
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+}
+
+.judul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.pgr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #2B2B2B;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    align-items: center;
+    justify-content: center;
 }
