@@ -167,19 +167,22 @@
 }
 
 #kotak1 img {
-    width: 319px;
+    margin: 7px;
+    width: 100%;
     height: 284px;
     filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
 }
 
 #kotak2 img {
-    width: 319px;
+    margin: 7px;
+    width: 100%;
     height: 284px;
     filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
 }
 
 #kotak3 img {
-    width: 319px;
+    margin: 7px;
+    width: 100%;
     height: 284px;
     filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
 }
