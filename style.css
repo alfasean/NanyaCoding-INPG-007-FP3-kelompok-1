@@ -74,11 +74,30 @@
     margin-right: 5px;
 }
 
-#show {
-    display: none;
+.popup {
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    width: 85%;
+    box-shadow: 0px 20px 25px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translate(10%, -100%);
+    pointer-events: none;
+    transition: top 0s 0.2s ease-in-out,
+                opacity 0.2s 0s ease-in-out,
+                transform 0.2s 0s ease-in-out;
+}
+
+.popup.show{
+    top: 50%;
+    opacity: 1;
+    pointer-events: auto;
+    transition: top 0s 0s ease-in-out,
+                opacity 0.2s 0s ease-in-out,
+                transform 0.2s 0s ease-in-out;
+  
   }
 
-.show-btn {
+.popup_button {
     width: 140px;
     height: 40px;
     margin-left: 20px;
@@ -86,6 +105,37 @@
     text-align: center;
     color: white;
   }
+
+.popup .container .row {
+    padding: 50px;
+}
+.popup .container .card {
+    padding: 20px;
+    width: 400px;
+    
+}
+
+.close{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    color: #000;
+    font-size: 27px;
+    height: 33px;
+    width: 33px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: background 0.1s linear, border-color 0.1s linear, color 0.1s linear;
+  }
+.close:hover{
+    background: #ebedf9;
+  }
+
+#about {
+    margin-top: -420px;
+}
 
 #about h1 {
     font-family: 'Basic';
@@ -279,7 +329,6 @@
     width: 10vw;
     height: 100%;
     position: absolute;
-    /* top: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,3 +355,34 @@
 .nxt-btn:hover img {
   opacity: 1;
 }
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #2b4865;
+    opacity: 0;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    z-index: 20px;
+  }
+  
+  .back-to-top.show {
+    bottom: 20px;
+    opacity: 1;
+  }
+  
+  .back-to-top svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
