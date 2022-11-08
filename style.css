@@ -166,6 +166,18 @@
     background-color: #FEEFF0;
 }
 
+#kotak4 {
+    background-color: #FDF8E3;
+}
+
+#kotak5 {
+    background-color: #F0F3FA;
+}
+
+#kotak6 {
+    background-color: #FEEFF0;
+}
+
 #kotak1 img {
     margin: 7px;
     width: 100%;
@@ -181,6 +193,27 @@
 }
 
 #kotak3 img {
+    margin: 7px;
+    width: 100%;
+    height: 284px;
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+}
+
+#kotak4 img {
+    margin: 7px;
+    width: 100%;
+    height: 284px;
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+} 
+
+#kotak5 img {
+    margin: 7px;
+    width: 100%;
+    height: 284px;
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+}
+
+#kotak6 img {
     margin: 7px;
     width: 100%;
     height: 284px;
@@ -213,4 +246,63 @@
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .img1 {
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }   
+  }
+  
+
+
+
+
+  .container-services {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .container-services::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    /* top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+
+  .pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
 }
