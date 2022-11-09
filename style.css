@@ -81,11 +81,11 @@
 
 .popup {
     border-radius: 15px;
-    background-color: #EAEAEA;
-    width: 85%;
+    background-color: #06283D;
+    width: 70%;
     box-shadow: 0px 20px 25px rgba(0,0,0,0.1);
     opacity: 0;
-    transform: translate(10%, -100%);
+    transform: translate(25%, -100%);
     pointer-events: none;
     transition: top 0s 0.2s ease-in-out,
                 opacity 0.2s 0s ease-in-out,
@@ -120,13 +120,17 @@
     
 }
 
+.judul_card {
+  font-size: 40px;
+}
+
 .close{
     display: flex;
     align-items: center;
     border-radius: 50%;
     justify-content: center;
     transition: all 0.3s ease-in-out;
-    color: #000;
+    color: #fff;
     font-size: 27px;
     height: 33px;
     width: 33px;
@@ -135,7 +139,7 @@
     transition: background 0.1s linear, border-color 0.1s linear, color 0.1s linear;
   }
 .close:hover{
-    background: #ebedf9;
+    background: #8BBCCC;
   }
 
 #about {
@@ -312,10 +316,6 @@
         margin-right: 10px;
     }   
   }
-  
-
-
-
 
   .container-services {
     padding: 0 10vw;
