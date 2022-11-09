@@ -1,5 +1,13 @@
-var backToTop = document.querySelector(".back-to-top");
+function setDarkMode(isDark) {
+  if(isDark) {
+    document.body.setAttribute('id', 'darkmode')
+  }
+  else {
+    document.body.setAttribute('id', '')
+  }
+}
 
+var backToTop = document.querySelector(".back-to-top");
 window.addEventListener("scroll", () => {
   if (this.scrollY >= 450) {
     backToTop.classList.add("show");
