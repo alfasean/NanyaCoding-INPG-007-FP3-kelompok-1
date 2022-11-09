@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $.fakeLoader({
-      bgColor: "#2B4865",
-      spinner: "spinner1",
+      bgColor: "#8C32F0",
+      spinner: "spinner5",
     });
   });
 
