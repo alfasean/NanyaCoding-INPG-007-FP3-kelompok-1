@@ -14,7 +14,8 @@
 
 .icon {
   font-size: 18px;
-  margin-right: 20px;cursor: pointer;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 .navbar-brand {
@@ -47,6 +48,7 @@
   margin-right: 30px;
 
 }
+
 .form-check .dm {
   font-size: 16px;
   font-family: 'Basic';
@@ -336,11 +338,6 @@
   filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
 }
 
-#services .card img:hover {
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
-}
-
 .judul {
   font-style: normal;
   font-weight: 400;
@@ -454,61 +451,87 @@
   height: 100%;
   left: 0px;
   top: 0px;
-  z-index: 9999999999; }
+  z-index: 9999999999;
+}
 
 .spinner5 {
   position: fixed;
   width: 50px;
   height: 50px;
   top: calc(50% - 50px/2);
-  left: calc(50% - 50px/2); }
-  .spinner5 .cube1,
-  .spinner5 .cube2 {
-    background-color: #fff;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: cubemove 1.8s infinite ease-in-out;
-            animation: cubemove 1.8s infinite ease-in-out; }
-  .spinner5 .cube2 {
-    -webkit-animation-delay: -0.9s;
-            animation-delay: -0.9s; }
+  left: calc(50% - 50px/2);
+}
+
+.spinner5 .cube1,
+.spinner5 .cube2 {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: cubemove 1.8s infinite ease-in-out;
+  animation: cubemove 1.8s infinite ease-in-out;
+}
+
+.spinner5 .cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
 
 @-webkit-keyframes cubemove {
   25% {
     -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-            transform: translateX(42px) rotate(-90deg) scale(0.5); }
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+  }
+
   50% {
     -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
-            transform: translateX(42px) translateY(42px) rotate(-179deg); }
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+  }
+
   50.1% {
     -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-            transform: translateX(42px) translateY(42px) rotate(-180deg); }
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+  }
+
   75% {
     -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-            transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  }
+
   100% {
     -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg); } }
+    transform: rotate(-360deg);
+  }
+}
 
 @keyframes cubemove {
   25% {
     -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-            transform: translateX(42px) rotate(-90deg) scale(0.5); }
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+  }
+
   50% {
     -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
-            transform: translateX(42px) translateY(42px) rotate(-179deg); }
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+  }
+
   50.1% {
     -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-            transform: translateX(42px) translateY(42px) rotate(-180deg); }
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+  }
+
   75% {
     -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-            transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  }
+
   100% {
     -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg); } }
+    transform: rotate(-360deg);
+  }
+}
 
 @media (max-width: 1283px) {
   .popup .container .card {
@@ -535,17 +558,21 @@
   .img1 {
     margin-top: 120px;
   }
+
   .p1 {
     margin-top: 20px;
   }
+
   .k1 {
     width: 80px;
     height: 100px;
     margin-top: -50px !important;
   }
+
   .k2 {
     margin-top: 30px !important;
   }
+
   .shape {
     margin-top: 20px !important;
     margin-left: 20px !important;
@@ -565,7 +592,9 @@
     margin-top: -680px;
     margin-bottom: 30px;
   }
-  .pre-btn, .nxt-btn {
+
+  .pre-btn,
+  .nxt-btn {
     margin-top: 35%;
   }
 }
@@ -599,8 +628,9 @@
     width: 20px;
     height: 220px;
   }
-  
-  .pre-btn, .nxt-btn {
+
+  .pre-btn,
+  .nxt-btn {
     margin-top: 40%;
   }
 
@@ -613,7 +643,9 @@
   .k1 {
     margin-left: 0px !important;
   }
-  .pre-btn, .nxt-btn {
+
+  .pre-btn,
+  .nxt-btn {
     margin-top: 43%;
   }
 }
@@ -622,7 +654,9 @@
   .popup .container {
     margin-top: 100px;
   }
-  .pre-btn, .nxt-btn {
+
+  .pre-btn,
+  .nxt-btn {
     margin-top: 60%;
   }
 }
@@ -632,7 +666,8 @@
     margin-top: -1300px;
   }
 
-  .pre-btn, .nxt-btn {
+  .pre-btn,
+  .nxt-btn {
     margin-top: 70%;
   }
 
@@ -646,7 +681,8 @@
     text-align: center;
   }
 
-  .pre-btn, .nxt-btn {
+  .pre-btn,
+  .nxt-btn {
     margin-top: 45%;
   }
 

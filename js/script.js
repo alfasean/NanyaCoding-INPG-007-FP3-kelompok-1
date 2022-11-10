@@ -9,7 +9,9 @@ window.addEventListener("scroll", () => {
     backToTop.classList.add("show");
 
     backToTop.addEventListener("click", () => {
-      window.scrollTo({ top: 0 });
+      window.scrollTo({
+        top: 0
+      });
     });
   } else {
     backToTop.classList.remove("show");
@@ -21,25 +23,25 @@ const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
 
 productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
+  let containerDimensions = item.getBoundingClientRect();
+  let containerWidth = containerDimensions.width;
 
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
+  nxtBtn[i].addEventListener('click', () => {
+    item.scrollLeft += containerWidth;
+  })
 
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
+  preBtn[i].addEventListener('click', () => {
+    item.scrollLeft -= containerWidth;
+  })
 })
 
 const viewBtn = document.querySelector(".popup_button"),
-popup = document.querySelector(".popup"),
-close = popup.querySelector(".close")
+  popup = document.querySelector(".popup"),
+  close = popup.querySelector(".close")
 
-viewBtn.onclick = ()=>{
+viewBtn.onclick = () => {
   popup.classList.toggle("show");
 }
-close.onclick = ()=>{
+close.onclick = () => {
   viewBtn.click();
 }
