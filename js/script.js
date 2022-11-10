@@ -1,10 +1,6 @@
-function setDarkMode(isDark) {
-  if(isDark) {
-    document.body.setAttribute('id', 'darkmode')
-  }
-  else {
-    document.body.setAttribute('id', '')
-  }
+function darkmode() {
+  const ubah = document.body;
+  ubah.classList.toggle("darkmode")
 }
 
 var backToTop = document.querySelector(".back-to-top");

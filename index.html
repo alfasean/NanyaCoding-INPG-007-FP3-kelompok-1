@@ -57,8 +57,10 @@
             <a class="nav-link" href="#contact"><b>Contact Us</b></a>
           </li>
         </ul>
-        <span class="icon" onclick="setDarkMode(false)"> | <b>Light☀️</b></span>
-        <span class="icon" onclick="setDarkMode(true)"><b>Dark🌜</b></span>
+        <div class="form-check form-switch">
+          <input type="checkbox" class="form-check-input" onclick="darkmode()">
+          <label class="custom-control-label dm" for="darkSwitch"><b>Dark Mode</b></label>
+        </div>
       </div>
     </div>
   </nav>

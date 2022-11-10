@@ -43,39 +43,44 @@
   color: white !important;
 }
 
-#darkmode {
+.form-check {
+  margin-right: 30px;
+
+}
+.form-check .dm {
+  font-size: 16px;
+  font-family: 'Basic';
+}
+
+.darkmode {
   background-color: #1B1A17;
 }
 
-#darkmode .navbar {
+.darkmode .navbar {
   background-color: #1B1A17 !important;
 }
 
-#darkmode .nav-link {
+.darkmode .nav-link {
   color: #fff !important;
 }
 
-#darkmode span {
+.darkmode .dm {
   color: #fff !important;
 }
 
-#darkmode .dm {
-  color: #fff;
+.darkmode .card {
+  background-color: #1B2430 !important;
 }
 
-#darkmode .card {
-  background-color: #1B2430;
+.darkmode p {
+  color: #fff !important;
 }
 
-#darkmode p {
-  color: #fff;
-}
-
-#darkmode .pre-btn{
+.darkmode .pre-btn{
   background: linear-gradient(90deg, rgba(226, 221, 221, 0) 0%, #1B1A17 100%);
 }
 
-#darkmode .nxt-btn{
+.darkmode .nxt-btn{
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #1B1A17 100%);
 }
 
