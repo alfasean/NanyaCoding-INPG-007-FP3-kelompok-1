@@ -646,6 +646,50 @@ body {
   color: white;
 }
 
+#portofolio {
+  margin-top: 5%;
+  background-color: #020E35;
+}
+
+.row1 {
+  background-color: #020E35;
+  border-style: none;
+  border-color: #020E35;
+}
+
+.card1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  background-color: #020E35;
+
+}
+
+.coll {
+  height: 390px;
+  width: 587px;
+  left: 135px;
+  top: 1951px;
+  border-radius: 0px;
+  background: #F09532;
+}
+
+.coll img {
+  height: 390px;
+  width: 433px;
+  left: 212px;
+  top: 1951px;
+  border-radius: 0px;
+
+}
+.bttn {
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
 footer {
   position: relative;
   width: 100%;
