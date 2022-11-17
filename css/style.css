@@ -596,17 +596,17 @@ body {
 
 #contact {
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-#bener {
-  margin-right: 50%;
-}
+/* #bener {
+  margin-right: 10%;
+} */
 
 #contact .container h3 {
   width: 584px;
   height: 38px;
-  left: 135px;
-  top: 3941px;
+  margin-right: 10px !important;
   font-family: "Basic";
   font-style: normal;
   font-weight: 400;
@@ -617,8 +617,7 @@ body {
 #contact .container h1 {
   width: 584px;
   height: 220px;
-  left: 135px;
-  top: 3971px;
+  margin-right: 10px !important;
   font-family: "Basic";
   font-style: normal;
   font-weight: 400;
@@ -627,10 +626,21 @@ body {
   color: #020e35;
 }
 
-#form {
-  margin-left: 60%;
-  margin-top: -23%;
+#hear {
+  width: 584px;
+  height: 220px;
+  margin-right: 10px !important;
+  font-family: "Basic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 110px;
+  color: #E73587;
 }
+
+/* #form {
+  margin-left: 60%;
+} */
 
 .pops {
   width: 585px;
@@ -700,6 +710,9 @@ footer p:nth-child(2) {
 @media (max-width: 1283px) {
   .popup .container .card {
     width: 150%;
+  }
+  #bener {
+    margin-left: 1%;
   }
 }
 
