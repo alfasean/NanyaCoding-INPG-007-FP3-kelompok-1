@@ -589,13 +589,13 @@ body {
 }
 
 #portofolio {
-  margin-top: -0px;
+  margin-top: 0%;
   background-color: #020E35;
   color: #ffffff;
 }
 
 .teks {
-  margin-top: 2.5%;
+  margin-top: 1%;
 }
 
 #portofolio .line {
@@ -705,6 +705,9 @@ body {
   margin-top: 3%;
 }
 
+.te {
+  margin-right: 2%;
+}
 .co1 {
   margin-left: 3%;
 }
@@ -762,7 +765,6 @@ body {
   width: 450px;
   padding-right: 2%;
 }
-
 
 
 .coll2 {
@@ -1120,7 +1122,7 @@ form .btn_rate:hover{
 @media (max-width: 917px) {
   .kk {
     height: 380px;
-    margin-top: 390;
+    margin-top: 390px;
   }
 }
 
@@ -1277,5 +1279,31 @@ form .btn_rate:hover{
 
   #about {
     margin-top: -1400px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .coll,
+  .coll2,
+  .co,
+  .coo,
+  .cooo,
+  .coooo,
+  .cooooo {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .coll1,
+  .coll3,
+  .co,
+  .coo1,
+  .cooo1,
+  .coooo1 {
+    text-align: center;
+    width: 100%;
   }
 }
