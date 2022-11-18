@@ -583,7 +583,7 @@ body {
 .kk {
   background-color: #020E35;
   width: 100%;
-  height: 295px;
+  height: 280px;
   margin-top: 310px;
   position: absolute;
 }
@@ -1063,7 +1063,7 @@ form .btn_rate:hover{
     margin-left: 1%;
   }
   .kk {
-    margin-top: 280px;
+    margin-top: 270px;
     height: 320px;
   }
 }
@@ -1121,7 +1121,7 @@ form .btn_rate:hover{
 
 @media (max-width: 917px) {
   .kk {
-    height: 380px;
+    height: 260px;
     margin-top: 390px;
   }
 }
@@ -1160,7 +1160,7 @@ form .btn_rate:hover{
   }
 
   .kk {
-    height: 490px;
+    height: 480px;
     margin-top: 340px;
   }
 
@@ -1212,7 +1212,7 @@ form .btn_rate:hover{
 
 @media (max-width: 655px) {
   .kk {
-    height: 510px;
+    height: 500px;
     margin-top: 320px;
   }
 }
@@ -1223,7 +1223,7 @@ form .btn_rate:hover{
   }
 
   .kk {
-    margin-top: 310px;;
+    margin-top: 315px;;
   }
 
   .pre-btn,
@@ -1247,7 +1247,7 @@ form .btn_rate:hover{
   }
 
   .kk {
-    margin-top: 380px;
+    margin-top: 370px;
     height: 440px;
   }
 
