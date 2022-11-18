@@ -184,12 +184,16 @@ body {
   font-family: "Basic";
 }
 
+.label_dm:hover {
+  color: #000 !important;
+}
+
 .darkmode {
-  background-color: #1b1a17;
+  background-color: #121212;
 }
 
 .darkmode .navbar {
-  background-color: #1b1a17 !important;
+  background-color: #121212 !important;
 }
 
 .darkmode .nav-link {
@@ -206,6 +210,10 @@ body {
 
 .darkmode p {
   color: #fff !important;
+}
+
+.darkmode .dm_bg {
+  background-color: #06283D !important;
 }
 
 #home {
@@ -575,7 +583,7 @@ body {
 .kk {
   background-color: #020E35;
   width: 100%;
-  height: 310px;
+  height: 295px;
   margin-top: 310px;
   position: absolute;
 }
@@ -864,7 +872,7 @@ body {
 footer {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 550px;
   background-color: #020e35;
   display: flex;
   flex-direction: column;
@@ -872,14 +880,18 @@ footer {
   justify-content: center;
 }
 
-footer p:nth-child(1) {
+footer .yul {
+  margin-bottom: 40px;
+}
+
+footer .yul p:nth-child(1) {
   font-size: 30px;
   color: white;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
-footer p:nth-child(2) {
+footer .yul p:nth-child(2) {
   color: #fcfcfc;
   font-size: 17px;
   width: 500px;
@@ -889,6 +901,9 @@ footer p:nth-child(2) {
 
 .sosial {
   display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(27%, -50%);
 }
 
 .sosial a {
@@ -916,12 +931,17 @@ footer p:nth-child(2) {
   color: white;
   bottom: 65px;
   font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  top: 70%;
+  left: 2%;
+  margin-top: 20px;
 }
 
-.container_rate{
+footer.container_rate{
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, -200%);
   position: relative;
   width: 400px;
   margin-top: 65px;
@@ -941,18 +961,7 @@ footer p:nth-child(2) {
   color: #fff;
   font-weight: 500;
 }
-.container_rate .edit{
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 500;
-  cursor: pointer;
-}
-.container_rate .edit:hover{
-  text-decoration: underline;
-}
+
 .container_rate .star-widget input{
   display: none;
 }
@@ -974,19 +983,19 @@ input#rate-5:checked ~ label{
   color: #fe7;
   text-shadow: 0 0 20px #952;
 }
-#rate-1:checked ~ form header:before{
+#rate-1:checked ~ form .header:before{
   content: "I just hate it ";
 }
-#rate-2:checked ~ form header:before{
+#rate-2:checked ~ form .header:before{
   content: "I don't like it ";
 }
-#rate-3:checked ~ form header:before{
+#rate-3:checked ~ form .header:before{
   content: "It is awesome ";
 }
-#rate-4:checked ~ form header:before{
+#rate-4:checked ~ form .header:before{
   content: "I just like it ";
 }
-#rate-5:checked ~ form header:before{
+#rate-5:checked ~ form .header:before{
   content: "I just love it ";
 }
 .container_rate form{
@@ -995,7 +1004,7 @@ input#rate-5:checked ~ label{
 input:checked ~ form{
   display: block;
 }
-form header{
+form .header{
   margin-top: 50px;
   width: 100%;
   font-size: 25px;
@@ -1044,12 +1053,6 @@ form .btn_rate:hover{
   background: #eff1f7 !important;
 }
 
-/* @media (max-width: 1340px) {
-  .kk {
-    height: 318px;
-  }
-} */
-
 @media (max-width: 1283px) {
   .popup .container .card {
     width: 150%;
@@ -1058,7 +1061,7 @@ form .btn_rate:hover{
     margin-left: 1%;
   }
   .kk {
-    margin-top: 305px;
+    margin-top: 280px;
     height: 320px;
   }
 }
@@ -1077,9 +1080,10 @@ form .btn_rate:hover{
   }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1061px) {
   .kk {
-    height: 350px;
+    height: 360px;
+    margin-top: 290;
   }
 }
 
@@ -1115,7 +1119,8 @@ form .btn_rate:hover{
 
 @media (max-width: 917px) {
   .kk {
-    height: 368px;
+    height: 380px;
+    margin-top: 390;
   }
 }
 
@@ -1153,7 +1158,8 @@ form .btn_rate:hover{
   }
 
   .kk {
-    height: 532px;
+    height: 490px;
+    margin-top: 340px;
   }
 
   .popup .container .card {
@@ -1183,6 +1189,12 @@ form .btn_rate:hover{
   .popup .container .c2 {
     margin-left: -15px !important;
   }
+
+  .coo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 740px) {
@@ -1198,7 +1210,8 @@ form .btn_rate:hover{
 
 @media (max-width: 655px) {
   .kk {
-    margin-top: 305px;
+    height: 510px;
+    margin-top: 320px;
   }
 }
 
@@ -1207,26 +1220,33 @@ form .btn_rate:hover{
     margin-top: 100px;
   }
 
+  .kk {
+    margin-top: 310px;;
+  }
+
   .pre-btn,
   .nxt-btn {
     margin-top: 60%;
     width: 56px;
     height: 56px;
   }
-
+  .sosial {
+    margin-left: 20px;
+  }
   #about {
     margin-top: -1110px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #about {
     margin-top: -1300px;
     margin-bottom: 50px;
   }
 
   .kk {
-    margin-top: 300px;
+    margin-top: 380px;
+    height: 440px;
   }
 
   .pre-btn,
