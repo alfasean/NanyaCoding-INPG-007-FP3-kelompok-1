@@ -572,6 +572,13 @@ body {
   stroke-linecap: round;
 }
 
+.kk {
+  background-color: #020E35;
+  width: 100%;
+  height: 310px;
+  margin-top: 310px;
+  position: absolute;
+}
 
 #portofolio {
   margin-top: 4%;
@@ -790,15 +797,6 @@ body {
   color: white;
 }
 
-.kk {
-  background-color: #020E35;
-  width: 100%;
-  height: 335px;
-  margin-top: 305px;
-  position: absolute;
-}
-
-
 footer {
   position: relative;
   width: 100%;
@@ -982,12 +980,28 @@ form .btn_rate:hover{
   background: #eff1f7 !important;
 }
 
+/* @media (max-width: 1340px) {
+  .kk {
+    height: 318px;
+  }
+} */
+
 @media (max-width: 1283px) {
   .popup .container .card {
     width: 150%;
   }
   #bener {
     margin-left: 1%;
+  }
+  .kk {
+    margin-top: 305px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 1259px) {
+  .kk {
+    height: 340px;
   }
 }
 
@@ -996,6 +1010,12 @@ form .btn_rate:hover{
     margin-top: -200px;
     height: 200px;
     width: 100px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .kk {
+    height: 350px;
   }
 }
 
@@ -1026,6 +1046,12 @@ form .btn_rate:hover{
   .shape {
     margin-top: 30px !important;
     margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 917px) {
+  .kk {
+    height: 368px;
   }
 }
 
@@ -1060,6 +1086,10 @@ form .btn_rate:hover{
     width: 100%;
     height: auto;
     margin-top: 20px;
+  }
+
+  .kk {
+    height: 532px;
   }
 
   .popup .container .card {
@@ -1102,6 +1132,12 @@ form .btn_rate:hover{
   }
 }
 
+@media (max-width: 655px) {
+  .kk {
+    margin-top: 305px;
+  }
+}
+
 @media (max-width: 545px) {
   .popup .container {
     margin-top: 100px;
@@ -1123,6 +1159,10 @@ form .btn_rate:hover{
   #about {
     margin-top: -1300px;
     margin-bottom: 50px;
+  }
+
+  .kk {
+    margin-top: 300px;
   }
 
   .pre-btn,
