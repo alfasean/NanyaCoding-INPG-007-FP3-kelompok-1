@@ -581,13 +581,17 @@ body {
 }
 
 #portofolio {
-  margin-top: 4%;
+  margin-top: -0px;
   background-color: #020E35;
   color: #ffffff;
 }
 
+.teks {
+  margin-top: 2.5%;
+}
+
 #portofolio .line {
-   margin-bottom: 5px;
+  margin-bottom: 5px;
   width: 100px;
   height: 1px;
   position: absolute;
@@ -670,8 +674,8 @@ body {
   line-height: 20px;
   color: #FFFFFF;
   padding-top: 10%;
+  margin-bottom: 10%;
 }
-
 
 .coll1 {
   height: 390px;
@@ -692,6 +696,66 @@ body {
   padding-bottom: -0%;
   margin-top: 3%;
 }
+
+.co1 {
+  margin-left: 3%;
+}
+
+.coo1 {
+  width: 450px;
+  height: 38px;
+  left: 541px;
+  top: 2411px;
+  font-family: 'Basic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.cooo1 {
+  width: 440px;
+  height: 19px;
+  left: 379px;
+  top: 2465px;
+  font-family: 'Basic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  padding-top: 3%;
+}
+
+.coooo1 {
+  width: 450px;
+  height: 80px;
+  left: 207px;
+  top: 2533px;
+  font-family: 'Basic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  padding-top: 10%;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-bottom: 10%;
+}
+
+.cooooo1 {
+  text-align: right;
+  width: 450px;
+  padding-right: 2%;
+}
+
+
 
 .coll2 {
   height: 340px;
