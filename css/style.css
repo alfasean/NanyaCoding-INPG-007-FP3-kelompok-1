@@ -1307,3 +1307,22 @@ form .btn_rate:hover{
     width: 100%;
   }
 }
+
+@media (max-width: 767px) {
+  .te{
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .btttn {
+    text-align: center;
+  }
+
+  .btttnn {
+    text-align: center;
+    margin-right: 90%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
